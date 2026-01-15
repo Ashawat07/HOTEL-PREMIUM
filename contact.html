@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sunset Grove Hotel | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">Sunset Grove</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="rooms.html">Rooms</a>
+      <a href="bar.html">Bar</a>
+      <a href="contact.html" class="active btn btn-sm">Book now</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+  </header>
+
+  <section class="page-hero small">
+    <div class="container">
+      <h1>Contact & Booking</h1>
+      <p>Questions, group bookings, or special requests—send us a note.</p>
+    </div>
+  </section>
+
+  <section class="container contact-grid">
+    <div>
+      <h2>Get in touch</h2>
+      <form id="contactForm" class="contact-form">
+        <div class="form-row">
+          <label>Full name</label>
+          <input type="text" name="name" placeholder="Your name" required />
+        </div>
+        <div class="form-row">
+          <label>Email</label>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-row">
+          <label>Phone</label>
+          <input type="tel" name="phone" placeholder="+1 555 123 4567" />
+        </div>
+        <div class="form-row">
+          <label>Check‑in</label>
+          <input type="date" name="checkin" required />
+        </div>
+        <div class="form-row">
+          <label>Check‑out</label>
+          <input type="date" name="checkout" required />
+        </div>
+        <div class="form-row">
+          <label>Room type</label>
+          <select name="room">
+            <option>Standard</option>
+            <option>Deluxe</option>
+            <option>Executive Suite</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Message</label>
+          <textarea name="message" rows="5" placeholder="Tell us more…"></textarea>
+        </div>
+        <button class="btn" type="submit">Send inquiry</button>
+        <p class="form-note">We’ll reply within 24 hours.</p>
+      </form>
+    </div>
+    <aside class="contact-info">
+      <h3>Hotel details</h3>
+      <p><strong>Address:</strong> 123 Grove Street, Hollywood, CA</p>
+      <p><strong>Email:</strong> hello@sunsetgrove.com</p>
+      <p><strong>Phone:</strong> +1 (555) 987‑6543</p>
+      <div class="map-placeholder">Map placeholder</div>
+    </aside>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">© 2026 Sunset Grove Hotel</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
